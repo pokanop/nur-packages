@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "0.14.1";
   src = fetchurl {
     url = "https://github.com/pokanop/nostromo/releases/download/v${version}/nostromo_${version}_Linux_x86_64.tar.gz";
-    sha256 = "sha256-";
+    sha256 = "sha256-VMpXExR2nLKhbE9wUoiXcwc5x71u71GI52xtpuz2DgA=";
   };
   sourceRoot = ".";
   installPhase = ''
